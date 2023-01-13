@@ -1,6 +1,6 @@
 <?php
 
-$con = new mysqli("localhost","root","","solutoria-api"); // Conectar a la BD
+$con = new mysqli("localhost","root","","name DB"); // Conectar a la BD
 $sql = "SELECT fechaIndicador, valorIndicador FROM products ORDER BY fechaIndicador DESC"; // Consulta SQL
 $query = $con->query($sql); // Ejecutar la consulta SQL
 $data = array(); // Array donde vamos a guardar los datos
