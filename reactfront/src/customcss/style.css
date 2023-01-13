@@ -64,6 +64,8 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
+
+  
   
   @media (prefers-reduced-motion: no-preference) {
     :root {
@@ -378,9 +380,9 @@
   button,
   [type="button"],
   [type="reset"],
-  [type="submit"] {
-    -webkit-appearance: button;
-  }
+  [type="submit"] 
+   
+  
   
   button:not(:disabled),
   [type="button"]:not(:disabled),
@@ -440,7 +442,7 @@
   
   [type="search"] {
     outline-offset: -2px;
-    -webkit-appearance: textfield;
+   
   }
   
   /* rtl:raw:
@@ -2560,6 +2562,9 @@
     float: left;
     margin-left: -1.5em;
   }
+  .my-element {
+    appearance: none;
+  }
   
   .form-check-input {
     width: 1em;
@@ -2574,7 +2579,7 @@
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
-    color-adjust: exact;
+    
   }
   
   .form-check-input[type="checkbox"] {
